@@ -46,7 +46,7 @@
 
             <tr>
                 <td>
-                    <g:submitButton name="upload" class="button" value="Preview" style="cursor: pointer;" />
+                    <g:submitButton name="upload" class="button" value="Resize" style="cursor: pointer;" />
 
 
 

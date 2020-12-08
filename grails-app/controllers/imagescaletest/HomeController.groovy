@@ -50,7 +50,7 @@ class HomeController {
 
         def op = new java.awt.image.ColorConvertOp(java.awt.color.ColorSpace.getInstance(java.awt.color.ColorSpace.CS_sRGB), null)
 
-        img  = Scalr.resize(img, Scalr.Method.AUTOMATIC, Scalr.Mode.FIT_TO_HEIGHT, 100, op)
+        img  = Scalr.resize(img, Scalr.Method.AUTOMATIC, Scalr.Mode.FIT_TO_WIDTH, 300, op)
 
 
         response.setContentType("application/octet-stream")
